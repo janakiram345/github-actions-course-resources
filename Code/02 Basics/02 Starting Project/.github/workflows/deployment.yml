@@ -1,7 +1,7 @@
 name: First Deployment
 on: push
 jobs:
-  - name: Get Code
+  tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
